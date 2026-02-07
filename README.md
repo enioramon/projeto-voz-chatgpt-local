@@ -34,19 +34,18 @@ Tudo executando **localmente**.
 
 ## 🧠 Arquitetura do Sistema
 
-```text
 Áudio → Speech-to-Text → LLM → Processamento → Text-to-Speech → Áudio
-```text
+
 ---
 
 ##  Tecnologias Utilizadas
 
-- **Python**
-- **faster-whisper**
-- **OpenAI API**
-- **sounddevice**
-- **gTTS**
-- **scipy**
+- Python
+- faster-whisper
+- OpenAI API
+- sounddevice
+- gTTS
+- scipy
 
 ---
 
