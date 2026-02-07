@@ -36,7 +36,7 @@ Tudo executando **localmente**.
 
 ```text
 Áudio → Speech-to-Text → LLM → Processamento → Text-to-Speech → Áudio
-
+```text
 ---
 
 ##  Tecnologias Utilizadas
