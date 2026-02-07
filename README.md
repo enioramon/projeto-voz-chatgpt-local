@@ -34,8 +34,9 @@ Tudo executando **localmente**.
 
 ## 🧠 Arquitetura do Sistema
 
+```text
 Áudio → Speech-to-Text → LLM → Processamento → Text-to-Speech → Áudio
-
+```
 ---
 
 ##  Tecnologias Utilizadas
