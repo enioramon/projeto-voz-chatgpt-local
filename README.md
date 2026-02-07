@@ -7,7 +7,6 @@ Sistema de interação por voz com pipeline completo:
 
 **Fala → Transcrição → IA → Resposta → Voz**
 
----
 
 ## 📌 Visão Geral
 
@@ -18,9 +17,8 @@ Este projeto implementa um assistente de voz local capaz de:
 - gerar respostas inteligentes,
 - converter texto em áudio (Text-to-Speech).
 
-Tudo executando **localmente**, sem Colab ou navegador.
+Tudo executando **localmente**.
 
----
 
 ## 🚀 Funcionalidades
 
@@ -30,13 +28,11 @@ Tudo executando **localmente**, sem Colab ou navegador.
 - 🔊 Resposta em áudio (TTS)
 - ⚙️ Execução local
 
----
 
 ## 🧠 Arquitetura do Sistema
 
 Áudio → Speech-to-Text → LLM → Processamento → Text-to-Speech → Áudio
 
----
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -47,7 +43,6 @@ Tudo executando **localmente**, sem Colab ou navegador.
 - gTTS
 - scipy
 
----
 
 ## 📂 Estrutura do Projeto
 
@@ -60,14 +55,12 @@ voz_chatgpt/
 ├── requirements.txt
 └── .env
 
----
 
 ## ▶️ Execução
 
 pip install -r requirements.txt
 python app.py
 
----
 
 ## 🎯 Objetivo do Projeto
 
@@ -79,7 +72,6 @@ python app.py
 - Automação inteligente
 - Arquitetura de sistemas baseados em IA
 
----
 
 ## 🔮 Possíveis Evoluções
 
@@ -92,7 +84,6 @@ python app.py
 - Multi-idioma automático
 - API própria
 
----
 
 ## 👤 Autor
 
