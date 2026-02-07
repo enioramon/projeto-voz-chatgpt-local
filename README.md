@@ -1,40 +1,56 @@
-🎙 Assistente de Voz com IA (ChatGPT Local)
+# 🎙 Assistente de Voz com IA (ChatGPT Local)
 
-Projeto desenvolvido no Bootcamp Bradesco - GenAI & Dados (DIO), com foco em integração de IA, processamento de áudio e automação inteligente.
+> Projeto desenvolvido no **Bootcamp Bradesco - GenAI & Dados (DIO)**  
+> Foco em integração de IA, processamento de áudio e automação inteligente.
 
-Este sistema implementa um pipeline completo de interação por voz:
-fala → transcrição → IA → resposta → voz, executando localmente no computador.
+Sistema de interação por voz com pipeline completo:
 
-🚀 Funcionalidades
+**Fala → Transcrição → IA → Resposta → Voz**
 
-🎙 Captura de áudio via microfone
+---
 
-🧠 Transcrição automática com faster-whisper
+## 📌 Visão Geral
 
-🤖 Processamento de linguagem natural com ChatGPT (OpenAI API)
+Este projeto implementa um assistente de voz local capaz de:
+- capturar áudio do microfone,
+- converter fala em texto (Speech-to-Text),
+- processar linguagem natural com IA,
+- gerar respostas inteligentes,
+- converter texto em áudio (Text-to-Speech).
 
-🔊 Síntese de voz (Text-to-Speech)
+Tudo executando **localmente**, sem Colab ou navegador.
 
-⚙️ Execução local (sem Colab ou browser)
+---
 
-🧠 Arquitetura do Sistema
+## 🚀 Funcionalidades
+
+- 🎙 Captura de áudio
+- 🧠 Transcrição automática (`faster-whisper`)
+- 🤖 Processamento com ChatGPT (OpenAI API)
+- 🔊 Resposta em áudio (TTS)
+- ⚙️ Execução local
+
+---
+
+## 🧠 Arquitetura do Sistema
+
 Áudio → Speech-to-Text → LLM → Processamento → Text-to-Speech → Áudio
 
-🛠 Tecnologias Utilizadas
+---
 
-Python
+## 🛠 Tecnologias Utilizadas
 
-faster-whisper
+- Python
+- faster-whisper
+- OpenAI API
+- sounddevice
+- gTTS
+- scipy
 
-OpenAI API
+---
 
-sounddevice
+## 📂 Estrutura do Projeto
 
-gTTS
-
-scipy
-
-📂 Estrutura do Projeto
 voz_chatgpt/
 ├── app.py
 ├── recorder.py
@@ -44,45 +60,48 @@ voz_chatgpt/
 ├── requirements.txt
 └── .env
 
-▶️ Execução do Projeto
+---
+
+## ▶️ Execução
+
 pip install -r requirements.txt
 python app.py
 
-📌 Objetivo do Projeto
+---
 
-Desenvolver um assistente de voz inteligente como projeto prático de portfólio, aplicando conceitos de:
+## 🎯 Objetivo do Projeto
 
-Inteligência Artificial aplicada
+- Projeto criado como parte do portfólio prático do Bootcamp Bradesco - DIO, com foco em:
+- Inteligência Artificial aplicada
+- Processamento de linguagem natural (NLP)
+- Processamento de áudio
+- Integração de APIs
+- Automação inteligente
+- Arquitetura de sistemas baseados em IA
 
-Processamento de linguagem natural (NLP)
+---
 
-Processamento de áudio
+## 🔮 Possíveis Evoluções
 
-Integração de APIs
+- Assistente de voz contínuo
+- Hotword (wake word)
+- Interface gráfica
+- Memória de contexto
+- LLM local (offline)
+- Conversa multi-turn
+- Multi-idioma automático
+- API própria
 
-Arquitetura de sistemas inteligentes
+---
 
-Automação com IA
+## 👤 Autor
 
-🧪 Possíveis Evoluções
+Enio Ramon
+Projeto educacional e de portfólio — Bootcamp Bradesco - GenAI & Dados | DIO
 
-Conversa contínua
 
-Hotword (wake word)
 
-Interface gráfica
 
-Memória de contexto
 
-LLM local (offline)
 
-API própria
 
-Multi-idioma automático
-
-Assistente pessoal inteligente
-
-👤 Autor
-
-Enio Silva
-Projeto desenvolvido para fins educacionais e de portfólio no Bootcamp Bradesco - DIO.
