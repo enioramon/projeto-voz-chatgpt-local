@@ -35,11 +35,11 @@ Tudo executando **localmente**.
 ## 🧠 Arquitetura do Sistema
 
 ```text
-Áudio → Speech-to-Text → LLM → Processamento → Text-to-Speech → Áudio```
+Áudio → Speech-to-Text → LLM → Processamento → Text-to-Speech → Áudio
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Python**
 - **faster-whisper**
